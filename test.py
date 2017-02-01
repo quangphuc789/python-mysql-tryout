@@ -1,6 +1,10 @@
 #!/usr/bin/python
-name = "Timothy"
-if name == "Timothy":
-        print ("Hello,", name)
-else:
-    print "Haha this is not your name"
+def checkName(name):
+    checkName = input("Is your name " + name + "? ")
+
+    if checkName.lower() == "yes":
+        print("Hello,", name);
+    else:
+        print("We are sorry about that.")
+
+checkName("Timothy")
