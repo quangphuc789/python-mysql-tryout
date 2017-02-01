@@ -1,5 +1,6 @@
 #!/usr/bin/python
 def checkName(name):
+    print(name)
     checkName = input("Is your name " + name + "? ")
 
     if checkName.lower() == "yes":
