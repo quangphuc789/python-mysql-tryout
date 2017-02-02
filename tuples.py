@@ -1,3 +1,5 @@
+# A tuple in python works as a list of constants in other languages
+
 tup = 1, 2, 3, 4, 5
 print tup
 
